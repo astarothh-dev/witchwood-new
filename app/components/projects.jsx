@@ -1,6 +1,6 @@
 const Projects = ({ projects }) => {
     return (
-      <div className="container mx-auto p-4">
+      <div id="projects" className="container mx-auto p-4">
         <h2 className="text-6xl tracking-tighter font-extrabold mx-auto text-center m-4 pb-12">Projects</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {projects.map((project, index) => (

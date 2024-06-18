@@ -17,7 +17,7 @@ const profiles = [
 
 const Hero = () => {
   return (
-    <div className="mt-24">
+    <div className="mt-24" id="about">
       <h2 className="tracking-tighter font-black  text-3xl md:text-6xl m-4 mx-auto text-center">we do creative.</h2>
       <p className="tracking-tighter font-bold text-lg text-center">We love all things creative. From software design to writing fantasy epics - we are an outlet for creative people to do creative things.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4  m-4 rounded-md my-20">

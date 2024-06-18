@@ -15,8 +15,8 @@ return (
           </div>
           {/* Links for larger screens, pushed to the right */}
           <div className="hidden md:flex ml-auto space-x-4 font-extrabold">
-            <a href="#" className="text-gray-800 hover:text-gray-600 text-xl tracking-tighter">About</a>
-            <a href="#" className="text-gray-800 hover:text-gray-600 text-xl tracking-tighter">Projects</a>
+            <a href="#about" className="text-gray-800 hover:text-gray-600 text-xl tracking-tighter">About</a>
+            <a href="#projects" className="text-gray-800 hover:text-gray-600 text-xl tracking-tighter">Projects</a>
             <a href="#" className="text-gray-800 hover:text-gray-600 text-xl tracking-tighter">Contact</a>
           </div>
           {/* Toggle Button for Mobile */}
