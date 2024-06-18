@@ -3,7 +3,7 @@ import React from "react";
 const profiles = [
   {
     id: 1,
-    image: "logo-icon.png",
+    image: "jake.png",
     title: "J Thomas",
     description: "Software engineer and musical horror nerd. J has a passion for writing and all things creative, when not building systems.",
   },
