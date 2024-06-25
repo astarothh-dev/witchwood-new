@@ -29,7 +29,7 @@ const Hero = () => {
             <img
               src={profile.image}
               alt={profile.title}
-              className="w-24 h-24 md:w-48 md:h-48 rounded-full"
+              className="w-24 h-24 md:w-48 md:h-48 rounded-full object-cover"
             />
             <h3 className="mt-2 text-xl md:text-2xl font-semibold">{profile.title}</h3>
             <p className="text-lg md:text-xl text-gray-600 text-center max-w-lg">{profile.description}</p>

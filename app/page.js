@@ -4,6 +4,7 @@ import Title from "./components/title";
 import Hero from "./components/hero";
 import TextureOverlay from "./textureoverlay";
 import Projects from "./components/projects";
+import Footer from "./components/footer";
 
 const projectsData = [
   {
@@ -23,7 +24,7 @@ const projectsData = [
 
 export default function Home() {
   return (
-    <main className="site-content pb-24">
+    <main className="site-content">
       <div className="texture-overlay">
         <div className="texture texture1"></div>
         <div className="texture texture2"></div>
@@ -32,7 +33,7 @@ export default function Home() {
       <Title />
       <Hero />
       <Projects projects={projectsData} />
-      
+      <Footer />
     </main>
   );
 }
